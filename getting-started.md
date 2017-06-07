@@ -32,9 +32,9 @@ You can create and train a {{site.data.keyword.nlclassifiershort}} in less than 
 If you already know your credentials for a {{site.data.keyword.nlclassifiershort}} service instance, skip this step.
 {: tip}
 
-1.  Go to [Watson Services ![External link icon](../icons/launch-glyph.svg "External link icon")](https://bluemix.net/watson/services) in the Watson Developer console and click **Select Service** for {{site.data.keyword.nlclassifiershort}}
-1.  Sign up for a free {{site.data.keyword.Bluemix_notm}} account or log in.
-1.  After you log in, give your project the name `Classifier-tutorial` the "Project Summary" page. Click **Create**.
+1.  Go to [Watson Services ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://bluemix.net/watson/services) in the Watson Developer console and click **Select Service** for {{site.data.keyword.nlclassifiershort}}
+1.  Sign up for a free {{site.data.keyword.Bluemix_notm}} account, or log in to your account.
+1.  Give your project the name `Classifier-tutorial` in the "Project Summary" page. Click **Create**.
 1.  Copy the `username` and `password` values from the **Credentials** section.
 
 ## Step 2: Create and train a classifier
