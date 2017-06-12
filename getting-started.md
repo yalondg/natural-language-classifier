@@ -27,15 +27,17 @@ The {{site.data.keyword.nlclassifierfull}} service can help your application und
 
 You can create and train a {{site.data.keyword.nlclassifiershort}} in less than 15 minutes.
 
-## Step 1: Create a project and copy your service credentials
+## Step 1: Log in, create the service, and get your credentials
 
-If you already know your credentials for a {{site.data.keyword.nlclassifiershort}} service instance, skip this step.
+If you already know your credentials for the {{site.data.keyword.nlclassifiershort}} service instance, skip this step.
 {: tip}
 
-1.  Go to [Watson Services ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://bluemix.net/watson/services) in the Watson Developer console and click **Select Service** for {{site.data.keyword.nlclassifiershort}}
-1.  Sign up for a free {{site.data.keyword.Bluemix_notm}} account, or log in to your account.
-1.  Give your project the name `Classifier-tutorial` in the "Project Summary" page. Click **Create**.
-1.  Copy the `username` and `password` values from the **Credentials** section.
+1.  Go to the [{{site.data.keyword.nlclassifiershort}} service](https://console.{DomainName}/catalog/services/natural-language-classifier/) and either sign up for a free {{site.data.keyword.Bluemix_notm}} account or log in.
+1.  After you log in, type `Classifier-tutorial` in the **Service name** field of the {{site.data.keyword.nlclassifiershort}} page. Click **Create**.
+1.  Copy your credentials:
+    1.  Click **Service credentials**.
+    1.  Click **View credentials** in the "Service Credentials" section.
+    1.  Copy the `username` and `password` values.
 
 ## Step 2: Create and train a classifier
 The classifier learns from examples before it can return information for texts that it hasn't seen before. The example data is referred to as "training data." You upload the training data when you create a classifier.
