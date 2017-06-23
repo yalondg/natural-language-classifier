@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-20"
+lastupdated: "2017-06-23"
 
 ---
 <!-- Attribute definitions -->
@@ -43,14 +43,34 @@ The classifier learns from examples before it can return information for texts t
 1.  Download the sample <a target="_blank" href="https://watson-developer-cloud.github.io/doc-tutorial-downloads/natural-language-classifier/weather_data_train.csv" download="weather_data_train.csv">weather_data_train.csv</a>. This is the same training data that is used in the [demo ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://natural-language-classifier-demo.mybluemix.net){:new_window}.
 
     The file is in a CSV format in two columns. The first column is the text input. The second column is the class for that text: temperature or condition. View the file to see the entries.
-1.  Issue the following command to call the `POST /classifiers/` method, which uploads the training data and creates the classifier:
+1.  Issue the following command to call the `POST /classifiers/`{: curl} `create`{: python} method, which uploads the training data and creates the classifier:
     - Replace `{username}` and `{password}` with the service credentials you copied in the previous step.
     - Modify the location of the training data to point to where you saved the `weather_data_train.csv` file.
 
     ```bash
     curl -i --user "{username}":"{password}" -F training_data=@{path_to_file}/weather_data_train.csv -F training_metadata="{\"language\":\"en\",\"name\":\"TutorialClassifier\"}" "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers"
     ```
+    {: curl}
     {: pre}
+
+    ```python
+        import json
+        from watson_developer_cloud import NaturalLanguageClassifierV1
+
+        natural_language_classifier = NaturalLanguageClassifierV1(
+          username='YOUR SERVICE USERNAME',
+          password='YOUR SERVICE PASSWORD')
+
+        with open('../resources/weather_data_train.csv', 'rb') as training_data:
+          classifier = natural_language_classifier.create(
+            training_data=training_data,
+            name='My Classfier',
+            language='en'
+          )
+        print(json.dumps(classifier, indent=2))
+        ```
+        {: python}
+        {: codeblock}
 
     The response includes a new classifier ID and status. For example:
 
