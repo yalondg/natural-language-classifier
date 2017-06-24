@@ -68,9 +68,9 @@ The classifier learns from examples before it can return information for texts t
             language='en'
           )
         print(json.dumps(classifier, indent=2))
-        ```
-        {: python}
-        {: codeblock}
+    ```
+    {: python}
+    {: codeblock}
 
     The response includes a new classifier ID and status. For example:
 
