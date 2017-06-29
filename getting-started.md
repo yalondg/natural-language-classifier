@@ -84,7 +84,7 @@ Now that the classifier is trained, you can query it.
 1.  Classify some weather-related questions to review how your newly trained classifier responds. Here is an example call. Replace `{username}`, `{password}`, and `{classifier_id}` with your information:
 
     ```bash
-    curl -G -user "{username}":"{password}" "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/{classifier_id}/classify" --data-urlencode "text=How hot will it be today?"
+    curl -G --user "{username}":"{password}" "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/{classifier_id}/classify" --data-urlencode "text=How hot will it be today?"
     ```
     {: pre}
 
