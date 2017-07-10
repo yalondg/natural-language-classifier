@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-20"
+lastupdated: "2017-07-10"
 
 ---
 
@@ -52,7 +52,7 @@ There are both minimum and maximum limits to the training data:
 ## Languages
 Although the default language is English, you can specify the language of the training data when you create the classifier. The language of the training data must match the language of the text that you intend to classify. For details, see the [API reference ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.ibm.com/watson/developercloud/natural-language-classifier/api/v1/){:new_window}.
 
-The classifier supports English (en), Arabic (ar), French (fr), German (de), Japanese (ja), Italian (it), Brazilian Portuguese (pt), and Spanish (es).
+The classifier supports English (en), Arabic (ar), French (fr), German (de), Italian (it), Japanese (ja), Korean (ko), Brazilian Portuguese (pt), and Spanish (es).
 
 ## Guidelines for good training
 The following guidelines are not enforced by the API. However, the classifier tends to perform better when the training data adheres to them:
