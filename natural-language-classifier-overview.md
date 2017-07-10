@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-20"
+lastupdated: "2017-07-10"
 
 ---
 
@@ -31,7 +31,7 @@ One use of the service is for customer support. For example, you can use the ser
 ## Supported languages
 {: #supported-languages}
 
-{{site.data.keyword.nlclassifiershort}} supports English, Arabic, French, German, Japanese, Italian, Portuguese, and Spanish.
+{{site.data.keyword.nlclassifiershort}} supports English, Arabic, French, German, Italian, Japanese, Korean, Portuguese, and Spanish.
 
 ## Next steps
 {: #next-steps}
