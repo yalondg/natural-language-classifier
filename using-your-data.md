@@ -10,7 +10,7 @@ lastupdated: "2017-07-18"
 {:shortdesc: .shortdesc}
 
 # Using your own data
-After you create, train, and query an {{site.data.keyword.nlclassifierfull}} with the data in the [Getting started](/doc/services/natural-language-classifier/getting-started.html) example, you will want to create a classifier that works with your own data. You assemble and provide this training data.
+After you create, train, and query an {{site.data.keyword.nlclassifierfull}} with the data in the [Getting started](/docs/services/natural-language-classifier/getting-started.html) example, you will want to create a classifier that works with your own data. You assemble and provide this training data.
 {:shortdesc}
 
 ## Structure of training data
