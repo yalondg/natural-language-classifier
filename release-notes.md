@@ -13,9 +13,9 @@ The following new features and changes to the service are available. These chang
 
 ## 10 July 2017
 
-**Additional languages:** The service now supports Korean in addition to Arabic, English, French, German Japanese, Italian, Portuguese, and Spanish. The language of the training data must match the language of the text that you intend to classify.
+**Additional languages:** The service now supports Korean in addition to Arabic, English, French, German, Japanese, Italian, Portuguese, and Spanish. The language of the training data must match the language of the text that you intend to classify.
 
-For details about languages, see [Using your own data](docs/natural-language-classifier/using-your-data.html#languages). For details about the API call, see the `Create classifier` method in the [API reference ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.ibm.com/watson/developercloud/natural-language-classifier/api/v1/){:new_window}.
+For details about languages, see [Using your own data](/docs/services/natural-language-classifier/using-your-data.html#languages). For details about the API call, see the `Create classifier` method in the [API reference ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.ibm.com/watson/developercloud/natural-language-classifier/api/v1/){:new_window}.
 
 ## 06 April 2016
 
