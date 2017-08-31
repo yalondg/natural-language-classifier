@@ -32,7 +32,7 @@ lastupdated: "2017-04-20"
 ## 지원 언어
 {: #supported-languages}
 
-{{site.data.keyword.nlclassifiershort}} 서비스는 영어, 아랍어, 프랑스어, 독일어, 일본어, 이탈리아어, 포르투갈어 및 스페인어를 지원합니다. 
+{{site.data.keyword.nlclassifiershort}} 서비스는 영어, 아랍어, 프랑스어, 독일어, 일본어, 이탈리아어, 한국어, 포르투갈어 (브라질) 및 스페인어를 지원합니다.
 
 ## 다음 단계
 {: #next-steps}

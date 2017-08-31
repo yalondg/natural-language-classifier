@@ -30,7 +30,9 @@ lastupdated: "2017-04-20"
 ## サポートされる言語
 {: #supported-languages}
 
-{{site.data.keyword.nlclassifiershort}} サービスでは、英語、アラビア語、フランス語、ドイツ語、日本語、イタリア語、ポルトガル語、およびスペイン語がサポートされます。
+{{site.data.keyword.nlclassifiershort}} サービスでは、英語、アラビア語、フランス語、ドイツ語、日本語、イタリア語、韓国語、ポルトガル語、およびスペイン語がサポートされます。
+
+
 
 ## 次のステップ
 {: #next-steps}

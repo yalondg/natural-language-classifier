@@ -31,7 +31,7 @@ Uno de los posibles usos del servicio es para dar soporte al cliente. Por ejempl
 ## Idiomas admitidos
 {: #supported-languages}
 
-El servicio {{site.data.keyword.nlclassifiershort}} admite los idiomas inglés, árabe, francés, alemán, japonés, italiano, portugués y español. 
+El servicio {{site.data.keyword.nlclassifiershort}} admite los idiomas inglés, árabe, francés, alemán, japonés, coreano, italiano, portugués y español. 
 
 ## Siguientes pasos
 {: #next-steps}
