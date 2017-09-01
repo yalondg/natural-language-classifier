@@ -31,7 +31,7 @@ Der Service kann unter anderem im Kundendienst eingesetzt werden. Zum Beispiel k
 ## Unterstützte Sprachen
 {: #supported-languages}
 
-Der Service '{{site.data.keyword.nlclassifiershort}}' unterstützt die Sprachen Englisch, Arabisch, Französisch, Deutsch, Japanisch, Italienisch, Portugiesisch und Spanisch. 
+Der Service '{{site.data.keyword.nlclassifiershort}}' unterstützt die Sprachen Englisch, Arabisch, Französisch, Deutsch, Japanisch, Koreanisch, Italienisch, Portugiesisch und Spanisch. 
 
 ## Nächste Schritte
 {: #next-steps}

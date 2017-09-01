@@ -46,9 +46,7 @@ vocalement à un département spécifique.
 ## Langues prises en charge
 {: #supported-languages}
 
-Le service {{site.data.keyword.nlclassifiershort}} prend en charge
-l'anglais, l'arabe, le français, l'allemand, le japonais, l'italien, le portugais et
-l'espagnol.
+Le service {{site.data.keyword.nlclassifiershort}} prend en charge l'anglais, l'arabe, le français, l'allemand, le japonais, le coréen, l'italien, le portugais et l'espagnol.
 
 
 ## Etapes suivantes

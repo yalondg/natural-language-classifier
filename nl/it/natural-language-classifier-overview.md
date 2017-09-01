@@ -32,7 +32,7 @@ Un utilizzo del servizio è per il supporto personalizzato. Ad esempio, puoi uti
 ## Lingue supportate 
 {: #supported-languages}
 
-Il servizio {{site.data.keyword.nlclassifiershort}} supporta inglese, arabo, francese, tedesco, giapponese, italiano, portoghese e spagnolo.
+Il servizio {{site.data.keyword.nlclassifiershort}} supporta inglese, arabo, francese, tedesco, giapponese, coreano, italiano, portoghese e spagnolo.
 
 ## Passi successivi
 {: #next-steps}

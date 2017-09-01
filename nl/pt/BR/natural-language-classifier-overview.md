@@ -32,7 +32,7 @@ Um uso do serviço é para suporte ao cliente. Por exemplo, é possível usar o 
 ## Idiomas suportados
 {: #supported-languages}
 
-O serviço {{site.data.keyword.nlclassifiershort}} suporta inglês, árabe, francês, alemão, japonês, italiano, português e espanhol.
+O serviço {{site.data.keyword.nlclassifiershort}} suporta inglês, árabe, francês, alemão, japonês, coreano, italiano, português e espanhol.
 
 ## Etapas Seguintes
 {: #next-steps}

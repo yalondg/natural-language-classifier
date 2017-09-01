@@ -31,7 +31,7 @@ lastupdated: "2017-04-20"
 ## 支持的语言
 {: #supported-languages}
 
-{{site.data.keyword.nlclassifiershort}} 服务支持英语、阿拉伯语、法语、德语、日语、意大利语、葡萄牙语和西班牙语。
+{{site.data.keyword.nlclassifiershort}} 服务支持英语、阿拉伯语、法语、德语、日语、朝鲜的、意大利语、葡萄牙语和西班牙语。
 
 ## 后续步骤
 {: #next-steps}
