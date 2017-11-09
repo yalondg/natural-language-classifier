@@ -2,50 +2,65 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-20"
+lastupdated: "2017-11-09"
 
 ---
+
 <!-- Attribute definitions -->
+
 {:curl: #curl .ph data-hd-programlang='curl'}
 {:javascript: #javascript .ph data-hd-programlang='javascript'}
 {:java: #java .ph data-hd-programlang='java'}
 {:python: #python .ph data-hd-programlang='python'}
 {:swift: data-hd-programlang='swift'}
-{:new_wind{:new_window: target="_blank"}
+{:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:screen: .screen}
 {:pre: .pre}
 {:codeblock: .codeblock}
 {:download: .download}
 {:tip: .tip}
+{:tool-button: #ext-dashboard .button .ext-dashboard}
 
 # Getting started tutorial
 {: #natural-language-classifier}
 
-The {{site.data.keyword.nlclassifierfull}} service can help your application understand the language of short texts, and make predictions about how to handle them. A classifier learns from your example data and then can return information for texts that it is not trained on.
+{{site.data.keyword.nlclassifierfull}} can help your application understand the language of short texts and make predictions about how to handle them. A classifier learns from your example data and then can return information for texts that it is not trained on.
 {:shortdesc}
 
-You can create and train a {{site.data.keyword.nlclassifiershort}} in less than 15 minutes.
+You can create and train a classifier in less than 15 minutes.
 
-## Step 1: Log in, create the service, and get your credentials
+## Before you begin
+{: #prerequisites}
 
-If you already know your credentials for the {{site.data.keyword.nlclassifiershort}} service instance, skip this step.
-{: tip}
+- Create an instance of the service:
+    - {: download} If you're seeing this, you created your service instance. Now get your credentials.
+    - Create a project from a service:
+        1.  Go to the {{site.data.keyword.watson}} Developer Console [Services ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.{DomainName}/developer/watson/services){: new_window} page.
+        1.  Select {{site.data.keyword.nlclassifiershort}}, click **Add Services**, and either sign up for a free {{site.data.keyword.Bluemix_notm}} account or log in.
+        1.  Type `classifier-tutorial` as the project name and click **Create Project**.
+- Copy the credentials to authenticate to your service instance:
+    - {: download} From the service dashboard (what you're looking at):
+        1.  Click the **Service credentials** tab.
+        1.  Click **View credentials** under **Actions**.
+        1.  Copy the `username`, `password`, and `url` values.
+        {: download}
+    - From your **classifier-tutorial** project in the Developer Console, copy the `username`,  `password`, and `url` values for `"natural_language–classifier"` from the  **Credentials** section.
 
-1.  Go to the [{{site.data.keyword.nlclassifiershort}} service](https://console.{DomainName}/catalog/services/natural-language-classifier/) and either sign up for a free {{site.data.keyword.Bluemix_notm}} account or log in.
-1.  After you log in, type `Classifier-tutorial` in the **Service name** field of the {{site.data.keyword.nlclassifiershort}} page. Click **Create**.
-1.  Copy your credentials:
-    1.  Click **Service credentials**.
-    1.  Click **View credentials** in the "Service Credentials" section.
-    1.  Copy the `username` and `password` values.
+<!-- Remove this text after dedicated instances have the Developer Console: begin -->
 
-## Step 2: Create and train a classifier
+If you use {{site.data.keyword.Bluemix_dedicated_notm}}, create your service instance from the [{{site.data.keyword.nlclassifiershort}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.{DomainName}/catalog/services/natural-language-classifier/){: new_window} page in the Catalog. For details about how to find your service credentials, see [Service credentials for Watson services ![External link icon](../../icons/launch-glyph.svg "External link icon")](/docs/services/watson/getting-started-credentials.html#getting-credentials-manually){: new_window}.
+
+<!-- Remove this text after dedicated instances have the Developer Console: end -->
+## Step 1: Create and train a classifier
+{: #create-train}
+
 The classifier learns from examples before it can return information for texts that it hasn't seen before. The example data is referred to as "training data." You upload the training data when you create a classifier.
 
 1.  Download the sample <a target="_blank" href="https://watson-developer-cloud.github.io/doc-tutorial-downloads/natural-language-classifier/weather_data_train.csv" download="weather_data_train.csv">weather_data_train.csv</a>. This is the same training data that is used in the [demo ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://natural-language-classifier-demo.mybluemix.net){:new_window}.
 
     The file is in a CSV format in two columns. The first column is the text input. The second column is the class for that text: temperature or condition. View the file to see the entries.
-1.  Issue the following command to call the `POST /classifiers/` method, which uploads the training data and creates the classifier:
+1.  Issue the following command to call the `POST /v1/classifiers/` method, which uploads the training data and creates the classifier:
     - Replace `{username}` and `{password}` with the service credentials you copied in the previous step.
     - Modify the location of the training data to point to where you saved the `weather_data_train.csv` file.
 
@@ -58,26 +73,27 @@ The classifier learns from examples before it can return information for texts t
 
     ```json
     {
-        "name": "TutorialClassifier",
-        "language": "en",
-        "status": "Training",
-        "url": "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/10D41B-nlc-1",
-        "classifier_id": "10D41B-nlc-1",
-        "created": "2015-05-28T18:01:57.393Z",
-        "status_description": "The classifier instance is in its training phase, not yet ready to accept classify requests"
+      "name": "TutorialClassifier",
+      "language": "en",
+      "status": "Training",
+      "url": "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/10D41B-nlc-1",
+      "classifier_id": "10D41B-nlc-1",
+      "created": "2017-05-28T18:01:57.393Z",
+      "status_description": "The classifier instance is in its training phase, not yet ready to accept classify requests"
     }
     ```
 
     Training begins immediately and must finish before you can query the classifier.
 1.  Check the training status periodically until you see a status of `Available`. With this sample data, training takes about 6 minutes:
-    - Issue a `GET /classifiers/{classifier_id}` call to retrieve the status of the classifier. In the following example, replace `{username}`, `{password}`, and `{classifier_id}` with your information:
+    - Issue a call to the `GET /v1/classifiers/{classifier_id}` method to retrieve the status of the classifier. In the following example, replace `{username}`, `{password}`, and `{classifier_id}` with your information:
 
         ```bash
         curl --user "{username}":"{password}" "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers/{classifier_id}"
         ```
         {: pre}
 
-## Step 3: Classify text
+
+## Step 2: Classify text
 
 Now that the classifier is trained, you can query it.
 
@@ -92,20 +108,20 @@ Now that the classifier is trained, you can query it.
 
     ```json
     {
-        "classifier_id": "10D41B-nlc-1",
-        "url": "https://gateway.watsonplatform.net/natural-language-classifier/api/v1",
-        "text": "How hot will it be today?",
-        "top_class": "temperature",
-        "classes": [
+      "classifier_id": "10D41B-nlc-1",
+      "url": "https://gateway.watsonplatform.net/natural-language-classifier/api/v1",
+      "text": "How hot will it be today?",
+      "top_class": "temperature",
+      "classes": [
         {
-            "class_name": "temperature",
-            "confidence": 0.9998201258549781
+          "class_name": "temperature",
+          "confidence": 0.9998201258549781
         },
         {
-            "class_name": "conditions",
-            "confidence": 0.00017987414502176904
+          "class_name": "conditions",
+          "confidence": 0.00017987414502176904
         }
-        ]
+      ]
     }
     ```
 
