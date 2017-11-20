@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-07-17"
+lastupdated: "2017-11-20"
 
 ---
 
@@ -37,4 +37,4 @@ One use of the service is for customer support. For example, you can use the ser
 {: #next-steps}
 
 - [Get started](/docs/services/natural-language-classifier/overview.html) with the service.
-- Try out the [demo ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://natural-language-classifier-demo.mybluemix.net){:new_window}.
+- Try out the [demo ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://natural-language-classifier-demo.ng.bluemix.net/){:new_window}.
