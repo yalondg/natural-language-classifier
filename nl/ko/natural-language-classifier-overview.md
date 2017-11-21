@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-20"
+lastupdated: "2017-11-21"
 
 ---
 
@@ -38,4 +38,4 @@ lastupdated: "2017-04-20"
 {: #next-steps}
 
 - 서비스 [시작하기](/docs/natural-language-classifier/overview.html)
-- [데모 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](http://natural-language-classifier-demo.mybluemix.net){:new_window} 사용해 보기
+- [데모 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://natural-language-classifier-demo.ng.bluemix.net/){:new_window} 사용해 보기

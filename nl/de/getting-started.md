@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-20"
+lastupdated: "2017-11-21"
 
 ---
 
@@ -36,7 +36,7 @@ Wenn Sie Ihre Berechtigungsnachweise für die Instanz des Service '{{site.data.k
 ## Schritt 2: Klassifikationsmerkmal erstellen und trainieren 
 Das Klassifikationsmerkmal muss zunächst anhand von Beispielen lernen, bevor es Informationen zu Texten zurückgeben kann, die es zuvor nicht gesehen hat. Die Beispieldaten werden als 'Trainingsdaten' bezeichnet. Sie laden die Trainingsdaten beim Erstellen eines Klassifikationsmerkmals hoch. 
 
-1.  Laden Sie das Beispiel <code><a target="_blank" href="https://watson-developer-cloud.github.io/doc-tutorial-downloads/natural-language-classifier/weather_data_train.csv" download="weather_data_train.csv">weather_data_train.csv</a></code> herunter. Dies sind dieselben Trainingsdaten, die in der [Demo ![Symbol 'Externer Link'](../../icons/launch-glyph.svg "Symbol 'Externer Link'")](http://natural-language-classifier-demo.mybluemix.net){:new_window} verwendet werden. 
+1.  Laden Sie das Beispiel <code><a target="_blank" href="https://watson-developer-cloud.github.io/doc-tutorial-downloads/natural-language-classifier/weather_data_train.csv" download="weather_data_train.csv">weather_data_train.csv</a></code> herunter. Dies sind dieselben Trainingsdaten, die in der [Demo ![Symbol 'Externer Link'](../../icons/launch-glyph.svg "Symbol 'Externer Link'")](https://natural-language-classifier-demo.ng.bluemix.net/){:new_window} verwendet werden. 
 
 	Die Datei hat das CSV-Format und weist zwei Spalten auf. Die erste Spalte ist die Texteingabe. Die zweite Spalte gibt die Klasse für diesen Text an: 'Temperatur' (temperature) oder 'Bedingung' (condition). Zeigen Sie die Datei an, um die Einträge zu sehen.
 2.  Setzen Sie den folgenden cURL-Befehl ab, um die Methode `POST /classifiers/` aufzurufen, mit der die Trainingsdaten hochgeladen werden und das Klassifikationsmerkmal erstellt wird: 

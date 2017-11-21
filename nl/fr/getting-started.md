@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-20"
+lastupdated: "2017-11-21"
 
 ---
 
@@ -38,7 +38,7 @@ Si vous connaissez déjà vos données d'identification pour l'instance de servi
 ## Etape 2 : Création et entraînement d'un discriminant 
 Le discriminant effectue son apprentissage à partir d'exemples avant de pouvoir renvoyer des informations pour des textes qu'il n'a jamais vus auparavant. Les exemples de données sont appelés "données d'apprentissage". Vous les téléchargez lorsque vous créez un discriminant.
 
-1.  Téléchargez l'exemple <code><a target="_blank" href="https://watson-developer-cloud.github.io/doc-tutorial-downloads/natural-language-classifier/weather_data_train.csv" download="weather_data_train.csv">weather_data_train.csv</a></code>. Il s'agit des données d'apprentissage qui sont utilisées dans la [démonstration ![Icône de lien externe](../../icons/launch-glyph.svg "External link icon")](http://natural-language-classifier-demo.mybluemix.net){:new_window}.
+1.  Téléchargez l'exemple <code><a target="_blank" href="https://watson-developer-cloud.github.io/doc-tutorial-downloads/natural-language-classifier/weather_data_train.csv" download="weather_data_train.csv">weather_data_train.csv</a></code>. Il s'agit des données d'apprentissage qui sont utilisées dans la [démonstration ![Icône de lien externe](../../icons/launch-glyph.svg "External link icon")](https://natural-language-classifier-demo.ng.bluemix.net/){:new_window}.
 
 	Le fichier est au format CSV et comporte deux colonnes. La première colonne contient l'entrée de texte. La deuxième colonne contient la classe
 pour ce texte : temperature ou condition. Affichez le fichier pour visualiser les entrées.

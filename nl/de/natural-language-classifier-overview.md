@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-20"
+lastupdated: "2017-11-21"
 
 ---
 
@@ -37,4 +37,4 @@ Der Service '{{site.data.keyword.nlclassifiershort}}' unterstützt die Sprachen 
 {: #next-steps}
 
 - [Los geht's](/docs/natural-language-classifier/overview.html) mit dem Service. 
-- Probieren Sie die [Demo ![Symbol 'Externer Link'](../../icons/launch-glyph.svg "Symbol 'Externer Link'")](http://natural-language-classifier-demo.mybluemix.net){:new_window} aus. 
+- Probieren Sie die [Demo ![Symbol 'Externer Link'](../../icons/launch-glyph.svg "Symbol 'Externer Link'")](https://natural-language-classifier-demo.ng.bluemix.net/){:new_window} aus. 

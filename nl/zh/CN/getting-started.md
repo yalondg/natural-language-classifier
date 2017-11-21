@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-20"
+lastupdated: "2017-11-21"
 
 ---
 
@@ -36,7 +36,7 @@ lastupdated: "2017-04-20"
 ## 第 2 步：创建并培训分类器
 分类器通过示例学习后，才能返回以前从未处理过的文本的信息。示例数据指的是“训练数据”。创建分类器时，上传训练数据。
 
-1.  下载样本 <code><a target="_blank" href="https://watson-developer-cloud.github.io/doc-tutorial-downloads/natural-language-classifier/weather_data_train.csv" download="weather_data_train.csv">weather_data_train.csv</a></code>。这是[演示 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://natural-language-classifier-demo.mybluemix.net){:new_window} 中使用的相同培训数据。
+1.  下载样本 <code><a target="_blank" href="https://watson-developer-cloud.github.io/doc-tutorial-downloads/natural-language-classifier/weather_data_train.csv" download="weather_data_train.csv">weather_data_train.csv</a></code>。这是[演示 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://natural-language-classifier-demo.ng.bluemix.net/){:new_window} 中使用的相同培训数据。
 
 	该文件为 CSV 格式，包含两列。第一列是文本输入。第二列是该文本的类：temperature 或 condition。查看该文件可看到相应的条目。
 2.  发出以下 curl 命令以调用 `POST /classifiers/` 方法；此方法将上传培训数据，并创建分类器：

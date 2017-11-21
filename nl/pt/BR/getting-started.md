@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-20"
+lastupdated: "2017-11-21"
 
 ---
 
@@ -36,7 +36,7 @@ Se você já souber suas credenciais para a instância de serviço do {{site.dat
 O classificador aprende com exemplos antes que possa retornar informações para os textos que ainda não viu. Os dados de exemplo são referidos como "dados de treinamento". Faça
 upload dos dados de treinamento ao criar um classificador.
 
-1.  Faça download da amostra <code><a target="_blank" href="https://watson-developer-cloud.github.io/doc-tutorial-downloads/natural-language-classifier/weather_data_train.csv" download="weather_data_train.csv">weather_data_train.csv</a></code>. Esses são os mesmo dados de treinamento usados no [demo ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](http://natural-language-classifier-demo.mybluemix.net){:new_window}.
+1.  Faça download da amostra <code><a target="_blank" href="https://watson-developer-cloud.github.io/doc-tutorial-downloads/natural-language-classifier/weather_data_train.csv" download="weather_data_train.csv">weather_data_train.csv</a></code>. Esses são os mesmo dados de treinamento usados no [demo ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://natural-language-classifier-demo.ng.bluemix.net/){:new_window}.
 
 	O arquivo está em um formato CSV em duas colunas. A primeira coluna é a entrada de texto. A segunda coluna é a classe para esse texto: temperatura ou condição. Visualize o arquivo para ver as entradas.
 2.  Emita o comando curl a seguir para chamar o método `POST /classifiers/`, que faz upload dos dados de treinamento e cria o classificador:

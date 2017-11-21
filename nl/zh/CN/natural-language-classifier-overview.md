@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-20"
+lastupdated: "2017-11-21"
 
 ---
 
@@ -37,4 +37,4 @@ lastupdated: "2017-04-20"
 {: #next-steps}
 
 - 服务[入门](/docs/natural-language-classifier/overview.html)。
-- 试用[演示 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](http://natural-language-classifier-demo.mybluemix.net){:new_window}。
+- 试用[演示 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://natural-language-classifier-demo.ng.bluemix.net/){:new_window}。
