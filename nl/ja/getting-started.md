@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-20"
+lastupdated: "2017-11-21"
 
 ---
 
@@ -36,7 +36,7 @@ lastupdated: "2017-04-20"
 ## ステップ 2: 分類子の作成およびトレーニング
 分類子は、以前見たことのないテキストに関する情報を返す前にサンプルから学習します。それらのサンプル・データは、「トレーニング・データ」と呼ばれます。分類器を作成する際は、トレーニング・データをアップロードします。
 
-1.  サンプルの <code><a target="_blank" href="https://watson-developer-cloud.github.io/doc-tutorial-downloads/natural-language-classifier/weather_data_train.csv" download="weather_data_train.csv">weather_data_train.csv</a></code> をダウンロードします。 これは、[デモ ![「外部リンク」アイコン](../../icons/launch-glyph.svg "「外部リンク」アイコン")](http://natural-language-classifier-demo.mybluemix.net){:new_window} で使用されるサンプルのトレーニング・データです。
+1.  サンプルの <code><a target="_blank" href="https://watson-developer-cloud.github.io/doc-tutorial-downloads/natural-language-classifier/weather_data_train.csv" download="weather_data_train.csv">weather_data_train.csv</a></code> をダウンロードします。 これは、[デモ ![「外部リンク」アイコン](../../icons/launch-glyph.svg "「外部リンク」アイコン")](https://natural-language-classifier-demo.ng.bluemix.net/){:new_window} で使用されるサンプルのトレーニング・データです。
 
 	このファイルは、2 つの列から成る CSV フォーマットのファイルです。最初の列はテキスト入力です。2 番目の列は、そのテキストのクラス (temperature または condition) です。このファイルを表示して、項目を確認します。
 2.  以下の curl コマンドを発行して、トレーニング・データをアップロードして分類子を作成する `POST /classifiers/` メソッドを呼び出します。

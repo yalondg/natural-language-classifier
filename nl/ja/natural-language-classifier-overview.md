@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-20"
+lastupdated: "2017-11-21"
 
 ---
 
@@ -38,4 +38,4 @@ lastupdated: "2017-04-20"
 {: #next-steps}
 
 - サービスを[開始します](/docs/natural-language-classifier/overview.html)。
-- [デモ ![「外部リンク」アイコン](../../icons/launch-glyph.svg "「外部リンク」アイコン")](http://natural-language-classifier-demo.mybluemix.net){:new_window} を試してみます。
+- [デモ ![「外部リンク」アイコン](../../icons/launch-glyph.svg "「外部リンク」アイコン")](https://natural-language-classifier-demo.ng.bluemix.net/){:new_window} を試してみます。

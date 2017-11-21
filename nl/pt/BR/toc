@@ -7,8 +7,8 @@ Classificador de língua natural
     {: .navgroup id="learn"}
     getting-started.md
     natural-language-classifier-overview.md
-    [Demo](http://natural-language-classifier-demo.mybluemix.net/)
-        
+    [Demo](https://natural-language-classifier-demo.ng.bluemix.net/)
+
     {: .topicgroup}
     Recurso adicionais
         [Blog](https://developer.ibm.com/watson/blog/)
@@ -39,7 +39,7 @@ Classificador de língua natural
 
     {: .navgroup id="help"}
     release-notes.md
-    
+
     {: .topicgroup}
     Comunidade do desenvolvedor
         [StackOverflow](http://stackoverflow.com/questions/tagged/nl-classifier)

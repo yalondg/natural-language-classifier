@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-20"
+lastupdated: "2017-11-21"
 
 ---
 
@@ -36,7 +36,7 @@ lastupdated: "2017-04-20"
 ## 2단계: 분류자 작성 및 훈련
 분류자가 이전에 본 적이 없는 텍스트에 대한 정보를 리턴할 수 있으려면 우선 예제를 학습합니다. 예제 데이터는 "훈련 데이터"라고 합니다. 분류자를 작성할 때 훈련 데이터를 업로드합니다.
 
-1.  샘플 <code><a target="_blank" href="https://watson-developer-cloud.github.io/doc-tutorial-downloads/natural-language-classifier/weather_data_train.csv" download="weather_data_train.csv">weather_data_train.csv</a></code>를 다운로드하십시오. 이는 [데모 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](http://natural-language-classifier-demo.mybluemix.net){:new_window}에서 사용된 것과 동일한 훈련 데이터입니다. 
+1.  샘플 <code><a target="_blank" href="https://watson-developer-cloud.github.io/doc-tutorial-downloads/natural-language-classifier/weather_data_train.csv" download="weather_data_train.csv">weather_data_train.csv</a></code>를 다운로드하십시오. 이는 [데모 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://natural-language-classifier-demo.ng.bluemix.net/){:new_window}에서 사용된 것과 동일한 훈련 데이터입니다. 
 
 	이 파일은 CSV 형식으로 두 개의 열로 되어 있습니다. 첫 번째 열은 텍스트 입력입니다. 두 번째 열은 해당 텍스트의 클래스(온도 또는 상태)입니다. 파일을 보고 항목을 확인하십시오.
 2.  다음의 curl 명령을 실행하여 훈련 데이터를 업로드하고 분류자를 작성하는 `POST /classifiers/` 메소드를 호출하십시오. 

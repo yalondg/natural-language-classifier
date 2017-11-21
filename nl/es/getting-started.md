@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-20"
+lastupdated: "2017-11-21"
 
 ---
 
@@ -36,7 +36,7 @@ Si ya conoce sus credenciales para la instancia del servicio {{site.data.keyword
 ## Paso 2: Cree y entrene un clasificador
 El clasificador aprende a partir de ejemplos antes de poder devolver información sobre textos que no ha visto antes. Los datos de ejemplo se denominan "datos de entrenamiento". El usuario sube los datos de entrenamiento cuando crea un clasificador.
 
-1.  Descargue el ejemplo <code><a target="_blank" href="https://watson-developer-cloud.github.io/doc-tutorial-downloads/natural-language-classifier/weather_data_train.csv" download="weather_data_train.csv">weather_data_train.csv</a></code>. Son los mismos datos de entrenamiento que se utilizan en la [demo ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](http://natural-language-classifier-demo.mybluemix.net){:new_window}.
+1.  Descargue el ejemplo <code><a target="_blank" href="https://watson-developer-cloud.github.io/doc-tutorial-downloads/natural-language-classifier/weather_data_train.csv" download="weather_data_train.csv">weather_data_train.csv</a></code>. Son los mismos datos de entrenamiento que se utilizan en la [demo ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://natural-language-classifier-demo.ng.bluemix.net/){:new_window}.
 
 	El archivo está en formato CSV en dos columnas. La primera columna es la entrada de texto. La segunda columna es la clase del texto: temperatura o condición. Visualice el archivo para ver las entradas.
 2.  Emita el siguiente mandato curl para llamar al método `POST /classifiers/`, que carga los datos de entrenamiento y crea el clasificador: 

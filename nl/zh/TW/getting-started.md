@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-20"
+lastupdated: "2017-11-21"
 
 ---
 
@@ -36,7 +36,7 @@ lastupdated: "2017-04-20"
 ## 步驟 2：建立及訓練分類器
 分類器要先瞭解範例，才能傳回以前未看過之文字的資訊。範例資料稱為「訓練資料」。當您建立分類器時，即可上傳訓練資料。
 
-1.  下載範例 <code><a target="_blank" href="https://watson-developer-cloud.github.io/doc-tutorial-downloads/natural-language-classifier/weather_data_train.csv" download="weather_data_train.csv">weather_data_train.csv</a></code>。這是[展示 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](http://natural-language-classifier-demo.mybluemix.net){:new_window} 中所用的相同訓練資料。
+1.  下載範例 <code><a target="_blank" href="https://watson-developer-cloud.github.io/doc-tutorial-downloads/natural-language-classifier/weather_data_train.csv" download="weather_data_train.csv">weather_data_train.csv</a></code>。這是[展示 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://natural-language-classifier-demo.ng.bluemix.net/){:new_window} 中所用的相同訓練資料。
 
 	此檔案的格式為 CSV 且內含兩個直欄。第一個直欄是文字輸入。第二個直欄是該文字的類別：溫度或狀況。請檢視檔案來查看項目。
 2.  發出下列 curl 指令來呼叫 `POST /classifiers/` 方法，以上傳訓練資料，以及建立分類器：

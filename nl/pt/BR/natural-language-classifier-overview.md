@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-20"
+lastupdated: "2017-11-21"
 
 ---
 
@@ -38,4 +38,4 @@ O serviço {{site.data.keyword.nlclassifiershort}} suporta inglês, árabe, fran
 {: #next-steps}
 
 - [Introdução](/docs/natural-language-classifier/overview.html) ao serviço.
-- Experimente o [demo ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](http://natural-language-classifier-demo.mybluemix.net){:new_window}.
+- Experimente o [demo ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://natural-language-classifier-demo.ng.bluemix.net/){:new_window}.
