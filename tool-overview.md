@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-04-20"
+lastupdated: "2017-12-18"
 
 ---
 
@@ -41,11 +41,14 @@ To find the link to the toolkit, follow these steps to get to your {{site.data.k
 
 You can allow others to use your toolkit by adding them in {{site.data.keyword.Bluemix_notm}}.
 
-1.  In {{site.data.keyword.Bluemix_notm}}, click **Account > Invite Team Members**.
-1.  Select the org that holds your classifier service and click **Next**.
-1.  Select the space that holds your classifier service.
-1.  Select the **Developer** space role. For details about roles, see [Managing team members and roles](/docs/admin/users_roles.html).
-1.  Enter the user's email address and click **Send**.
+1.  From the menu bar, click **Manage** &gt; **Security** &gt; **Identity and Access**, and then click **Users**.
+1.  Click **Invite users**.
+1.  Specify the email address of the user.
+1.  Expand the **Cloud Foundry access** section.
+1.  Select the organization that holds your classifier service.
+1.  Select the **Auditor** organization role.
+1.  Select the **Developer** space role. For details about roles, see [Cloud Foundry roles
+](/docs/iam/cfaccess.html#cfroles).
 1.  In a separate email, send the URL of your toolkit (that you bookmarked earlier) to the users.
 
 ## Example uses
@@ -83,7 +86,7 @@ After a classifier is trained and available, you can check how well it classifie
     - If the response is correct but the confidence is low, add it to your training data by clicking **Approve**.
 1.  Click **Add to training data** to add the approved and flagged responses to your training data.
 1.  On the **Training data** page, review and update the classes that are assigned to the texts that you flagged.
-1.  To update your classifier with this new training data, you'll create another one. Click **Create classifier**. After it is trained, test the new classifier to see how it improved.
+1.  To update your classifier with this new training data, you create another classifier. (It's not possible to retrain a classifier.) Click **Create classifier**. After training is complete, test the new classifier to see how it improved.
 
 ### Upload data to test your classifier
 

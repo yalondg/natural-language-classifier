@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-11-20"
+lastupdated: "2017-12-18"
 
 ---
 
@@ -37,7 +37,7 @@ You can create and train a classifier in less than 15 minutes.
     - {: download} If you're seeing this, you created your service instance. Now get your credentials.
     - Create a project from a service:
         1.  Go to the {{site.data.keyword.watson}} Developer Console [Services ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.{DomainName}/developer/watson/services){: new_window} page.
-        1.  Select {{site.data.keyword.nlclassifiershort}}, click **Add Services**, and either sign up for a free {{site.data.keyword.Bluemix_notm}} account or log in.
+        1.  Select {{site.data.keyword.nlclassifiershort}}, click **Add Services**, and either sign up for a free {{site.data.keyword.cloud_notm}} account or log in.
         1.  Type `classifier-tutorial` as the project name and click **Create Project**.
 - Copy the credentials to authenticate to your service instance:
     - {: download} From the service dashboard (what you're looking at):
@@ -52,6 +52,12 @@ You can create and train a classifier in less than 15 minutes.
 If you use {{site.data.keyword.Bluemix_dedicated_notm}}, create your service instance from the [{{site.data.keyword.nlclassifiershort}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.{DomainName}/catalog/services/natural-language-classifier/){: new_window} page in the Catalog. For details about how to find your service credentials, see [Service credentials for Watson services ![External link icon](../../icons/launch-glyph.svg "External link icon")](/docs/services/watson/getting-started-credentials.html#getting-credentials-manually){: new_window}.
 
 <!-- Remove this text after dedicated instances have the Developer Console: end -->
+
+The following video walks you through this tutorial.
+
+<iframe class="embed-responsive-item" id="youtubeplayer" type="text/html" width="560" height="315" src="https://www.youtube.com/embed/SUj826ybCdU?rel=0" webkitallowfullscreen mozallowfullscreen allowfullscreen gesture="media" allow="encrypted-media"></iframe>
+
+
 ## Step 1: Create and train a classifier
 {: #create-train}
 

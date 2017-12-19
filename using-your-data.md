@@ -14,6 +14,8 @@ After you create, train, and query an {{site.data.keyword.nlclassifierfull}} wit
 {:shortdesc}
 
 ## Structure of training data
+{: #training-structure}
+
 You can provide the data to train the {{site.data.keyword.nlclassifiershort}} in comma-separated value (CSV) format.
 
 In the CSV format, a row in the file represents an example record. Each record has two or more columns. The first column is the representative text to classify. The additional columns are classes that apply to that text. The following image shows a CSV file that has four records. Each record in this sample includes the text input and one class, which are separated by a comma:
@@ -44,17 +46,28 @@ Make sure that your CSV training data adheres to the following format requiremen
     - Double quotation marks. In addition, quotation marks must be escaped with double quotation marks: `"Example text with ""quotation"""`.
 
 ## Size limitations
+{: #training-limits}
+
 There are both minimum and maximum limits to the training data:
 
 - The training data must have at least five records (rows) and no more than 15,000 records.
 - The maximum total length of a text value is 1024 characters.
 
+## Number of classifiers
+{: #classifier-limits}
+
+Each instance of the {{site.data.keyword.nlclassifiershort}} service can have up to 8 classifiers, each with a unique classifier ID. To support more than 8 classifiers, create another instance of {{site.data.keyword.nlclassifiershort}}. You can create a service instance from the {{site.data.keyword.watson}} console [Browse Services ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.{DomainName}/developer/watson/services){: new_window} page.
+
 ## Languages
+{: #language-support}
+
 Although the default language is English, you can specify the language of the training data when you create the classifier. The language of the training data must match the language of the text that you intend to classify. For details, see the [API reference ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.ibm.com/watson/developercloud/natural-language-classifier/api/v1/){:new_window}.
 
 The classifier supports English (en), Arabic (ar), French (fr), German (de), Italian (it), Japanese (ja), Korean (ko), Portuguese (Brazilian) (pt), and Spanish (es).
 
 ## Guidelines for good training
+{: #training-guidelines}
+
 The following guidelines are not enforced by the API. However, the classifier tends to perform better when the training data adheres to them:
 
 - Limit the length of input text to fewer than 60 words.
