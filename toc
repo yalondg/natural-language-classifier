@@ -23,18 +23,16 @@ Natural Language Classifier
 
     {: .navgroup id="reference"}
     [API reference](http://www.ibm.com/watson/developercloud/natural-language-classifier/api/v1)
-    [Other Watson docs](https://www.ibm.com/watson/developercloud/doc/index.html)
+    [Watson GitHub repos](https://github.com/watson-developer-cloud/)
 
     {: .topicgroup}
     Watson SDKs
         [Java SDK](https://github.com/watson-developer-cloud/java-sdk)
         [Node.js SDK](https://github.com/watson-developer-cloud/node-sdk)
         [Python SDK](https://github.com/watson-developer-cloud/python-sdk)
+        [.NET SDK](https://github.com/watson-developer-cloud/dotnet-standard-sdk)
         [Swift SDK](https://github.com/watson-developer-cloud/ios-sdk)
         [Unity SDK](https://github.com/watson-developer-cloud/unity-sdk)
-
-    [Watson GitHub repos](https://github.com/watson-developer-cloud/)
-    [Starter kits](https://www.ibm.com/watson/developercloud/starter-kits.html)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
