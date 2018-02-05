@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-11-20"
+  years: 2015, 2018
+lastupdated: "2018-02-05"
 
 ---
 
@@ -15,18 +15,27 @@ lastupdated: "2017-11-20"
 {{site.data.keyword.nlclassifierfull}} uses machine learning algorithms to return the top matching predefined classes for short text inputs.
 {:shortdesc}
 
+{{site.data.keyword.nlclassifiershort}} can help your application understand the language of short texts and make predictions about how to handle them. A classifier learns from your example data and then can return information for texts that it is not trained on.
+
 ## How you use the service
 
 The following image shows the process of creating and using the classifier:
 
 ![Classification process](images/classifier_process.png)
 
-## What to use the service for
+## Use cases
 {: #use-cases}
 
-{{site.data.keyword.nlclassifiershort}} can help your application understand the language of short texts and make predictions about how to handle them. A classifier learns from your example data and then can return information for texts that it is not trained on.
+You can use {{site.data.keyword.nlclassifiershort}} in many different applications and industries. Here are some examples:
 
-One use of the service is for customer support. For example, you can use the service to take predictive actions, such as routing users' questions to the correct person or classifying issues by severity. And by incorporating the {{site.data.keyword.speechtotextshort}} service in your app, you can also route voice questions to a specific department.
+- **Banking and finance**: Classify investments, risks, and transactions.
+- **Higher Education and Government**: Sort text or documents into categories. Useful for Academia, Law, Non-profit organizations, and other organizations that require classification.
+- **E-commerce and Retail**: Help your users choose products by narrowing the choices by theme. Tag products or identify fraudulent items.
+- **Services**: Categorize service queries, messages, and responses to help address problems and deploy solutions quicker.
+- **Social media**: Organize tweets, email, posts, and shares into categories or themes.
+- **Talent solutions**: Analyze resum&eacute;s and applications to derive deeper meaning.
+
+With {{site.data.keyword.nlclassifiershort}}, the data is yours to parse and categorize.
 
 ## Supported languages
 {: #supported-languages}
@@ -36,5 +45,5 @@ One use of the service is for customer support. For example, you can use the ser
 ## Next steps
 {: #next-steps}
 
-- [Get started](/docs/services/natural-language-classifier/overview.html) with the service.
+- [Get started](/docs/services/natural-language-classifier/getting-started.html) with the service.
 - Try out the [demo ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://natural-language-classifier-demo.ng.bluemix.net/){:new_window}.

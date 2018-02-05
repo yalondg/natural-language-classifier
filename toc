@@ -12,7 +12,9 @@ Natural Language Classifier
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
+    best-practices.md
     using-your-data.md
+    [Building Cognitive Applications (IBM Redbooks)](http://www.redbooks.ibm.com/redbooks/pdfs/sg248391.pdf)
     tool-overview.md
     {: .navgroup-end}
 
