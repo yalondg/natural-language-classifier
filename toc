@@ -8,16 +8,13 @@ Natural Language Classifier
     getting-started.md
     natural-language-classifier-overview.md
     [Demo](https://natural-language-classifier-demo.ng.bluemix.net/)
-
-    {: .topicgroup}
-    Additional resources
-        [Blog](https://developer.ibm.com/watson/blog/)
-        [Webinars](http://www.ibm.com/watson/building-with-watson-webinar.html)
-        [Videos](https://www.youtube.com/user/IBMWatsonSolutions)
+    resources.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
+    best-practices.md
     using-your-data.md
+    [Building Cognitive Applications (IBM Redbooks)](http://www.redbooks.ibm.com/redbooks/pdfs/sg248391.pdf)
     tool-overview.md
     {: .navgroup-end}
 

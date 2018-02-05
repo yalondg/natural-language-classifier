@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-12-18"
+lastupdated: "2018-02-05"
 
 ---
 
@@ -54,6 +54,7 @@ If you use {{site.data.keyword.Bluemix_dedicated_notm}}, create your service ins
 <!-- Remove this text after dedicated instances have the Developer Console: end -->
 
 The following video walks you through this tutorial.
+{: #video}
 
 <iframe class="embed-responsive-item" id="youtubeplayer" type="text/html" width="560" height="315" src="https://www.youtube.com/embed/SUj826ybCdU?rel=0" webkitallowfullscreen mozallowfullscreen allowfullscreen gesture="media" allow="encrypted-media"></iframe>
 
@@ -164,7 +165,7 @@ The response to the command is an empty JSON object.
 ## Next steps
 You have a basic understanding of how to use {{site.data.keyword.nlclassifiershort}}. Now dive deeper:
 
-- Learn how to [use your own data](/docs/services/natural-language-classifier/using-your-data.html) to train a classifier
+- Learn how to [prepare your data](/docs/services/natural-language-classifier/using-your-data.html) to train a classifier
 - Read about the API in the [API reference ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/watson/developercloud/natural-language-classifier/api/){:new_window}
 - Interact with the API in the [API explorer ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://watson-api-explorer.mybluemix.net/apis/natural-language-classifier-v1){:new_window}
 - Look at the [Node.js starter application](https://github.com/watson-developer-cloud/natural-language-classifier-nodejs){:new_window} for an example web app
