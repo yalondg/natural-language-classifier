@@ -2,12 +2,13 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-05"
+lastupdated: "2018-03-16"
 
 ---
 
-{:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
+{:new_window: target="_blank"}
+{:tip: .tip}
 
 # Best practices for classifiers
 By following some guidelines and adopting some design patterns, you can provide the best experience for your users and help ensure that your application can handle what you want it to classify.
@@ -23,6 +24,9 @@ Each instance of the {{site.data.keyword.nlclassifiershort}} service can have up
 Although the default language is English, you can specify the language of the training data when you create the classifier. The language of the training data must match the language of the text that you intend to classify. For details, see the [API reference ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.ibm.com/watson/developercloud/natural-language-classifier/api/v1/){:new_window}.
 
 The classifier supports English (en), Arabic (ar), French (fr), German (de), Italian (it), Japanese (ja), Korean (ko), Portuguese (Brazilian) (pt), and Spanish (es).
+
+Classifying Japanese texts with the **Classify multiple phrases** method is a beta feature.
+{: tip}
 
 ## Guidelines for good training
 {: #training-guidelines}
