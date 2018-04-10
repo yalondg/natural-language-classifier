@@ -8,7 +8,12 @@ Natural Language Classifier
     getting-started.md
     natural-language-classifier-overview.md
     [Demo](https://natural-language-classifier-demo.ng.bluemix.net/)
-    resources.md
+
+    {: .topicgroup}
+    Additional resources
+        [Blog](https://medium.com/ibm-watson)
+        [Webinars](http://www.ibm.com/watson/building-with-watson-webinar.html)
+        [Videos](https://www.youtube.com/user/IBMWatsonSolutions)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
@@ -20,6 +25,7 @@ Natural Language Classifier
 
     {: .navgroup id="reference"}
     [API reference](http://www.ibm.com/watson/developercloud/natural-language-classifier/api/v1)
+    sample-applications.md
 
     {: .topicgroup}
     Watson SDKs
