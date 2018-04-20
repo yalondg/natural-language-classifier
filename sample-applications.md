@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-10"
+lastupdated: "2018-04-17"
 
 ---
 
@@ -24,6 +24,15 @@ Explore our sample applications to help you understand what you can develop with
 
 These apps are created by the community of developers and are not supported by IBM. They might not work as expected and they might not be available all the time.
 {: tip}
+
+## E-commerce product categorization
+
+Organize products in your e-commerce store. This Python app categorizes products from a text description or from a link to a product. The training data comes from two public e-commerce data sets found on Kaggle.com (Flipkart and JCPenny).
+
+- [Read More ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://medium.com/ibm-watson/e-commerce-product-categorization-with-watson-cf2130d7c94a?source=rss----22a2beb5a88a---4){: new_window}
+- [View the demo ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://erichensley-nlc-demo.mybluemix.net/){: new_window}
+- [Video walkthrough ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://youtu.be/JPMZxgpc_Uo){: new_window}
+- [Fork the code ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/erichensleyibm/NLC_product_classifier-demo){: new_window}
 
 ## Text message spam prediction
 
