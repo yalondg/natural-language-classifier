@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-18"
+  years: 2015, 2018
+lastupdated: "2018-04-27"
 
 ---
 
@@ -32,7 +32,7 @@ To find the link to the toolkit, follow these steps to get to your {{site.data.k
 1.  Open your {{site.data.keyword.nlclassifiershort}} service tile by logging into your [{{site.data.keyword.Bluemix_notm}} Dashboard ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.{DomainName}/dashboard/services){: new_window}.
 
     - In the **Services** area, click your {{site.data.keyword.nlclassifiershort}} service tile to open the instance dashboard. (If you don't have a service tile, [create an instance ![External link icon](../../icons/launch-glyph.svg)](https://console.{DomainName}/catalog/services/natural-language-classifier/){: new_window} of the {{site.data.keyword.nlclassifiershort}} service.)
-1.  In the service dashboard, click **Access the beta toolkit**.
+1.  In the service dashboard, click **Open tool**.
 
     Bookmark the URL for easy access to the toolkit later.
     {: tip}
