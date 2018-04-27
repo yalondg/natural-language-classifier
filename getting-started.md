@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2018-02-05"
+  years: 2015, 2018
+lastupdated: "2018-04-27"
 
 ---
 
@@ -33,25 +33,16 @@ You can create and train a classifier in less than 15 minutes.
 ## Before you begin
 {: #prerequisites}
 
+- {: download} If you're seeing this, you created your service instance. Now get your credentials.
 - Create an instance of the service:
-    - {: download} If you're seeing this, you created your service instance. Now get your credentials.
-    - Create a project from a service:
-        1.  Go to the {{site.data.keyword.watson}} Developer Console [Services ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.{DomainName}/developer/watson/services){: new_window} page.
-        1.  Select {{site.data.keyword.nlclassifiershort}}, click **Add Services**, and either sign up for a free {{site.data.keyword.cloud_notm}} account or log in.
-        1.  Type `classifier-tutorial` as the project name and click **Create Project**.
+    1.  Go to the [{{site.data.keyword.nlclassifiershort}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.{DomainName}/catalog/services/natural-language-classifier){: new_window} page in the {{site.data.keyword.cloud_notm}} Catalog.
+    1.  Sign up for a free {{site.data.keyword.cloud_notm}} account or log in.
+    1.  Click **Create**.
 - Copy the credentials to authenticate to your service instance:
-    - {: download} From the service dashboard (what you're looking at):
-        1.  Click the **Service credentials** tab.
-        1.  Click **View credentials** under **Actions**.
-        1.  Copy the `username`, `password`, and `url` values.
-        {: download}
-    - From your **classifier-tutorial** project in the Developer Console, copy the `username`,  `password`, and `url` values for `"natural_language–classifier"` from the  **Credentials** section.
+    1.  On the service dashboard, click the **Service credentials** tab.
+    1.  Click **View credentials** under **Actions**.
+    1.  Copy the `username`, `password`, and `url` values.
 
-<!-- Remove this text after dedicated instances have the Developer Console: begin -->
-
-If you use {{site.data.keyword.Bluemix_dedicated_notm}}, create your service instance from the [{{site.data.keyword.nlclassifiershort}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.{DomainName}/catalog/services/natural-language-classifier/){: new_window} page in the Catalog. For details about how to find your service credentials, see [Service credentials for Watson services ![External link icon](../../icons/launch-glyph.svg "External link icon")](/docs/services/watson/getting-started-credentials.html#getting-credentials-manually){: new_window}.
-
-<!-- Remove this text after dedicated instances have the Developer Console: end -->
 
 The following video walks you through this tutorial.
 {: #video}
