@@ -26,6 +26,7 @@ Natural Language Classifier
     {: .navgroup id="reference"}
     [API reference](http://www.ibm.com/watson/developercloud/natural-language-classifier/api/v1)
     sample-applications.md
+    information-security.md
 
     {: .topicgroup}
     Watson SDKs
