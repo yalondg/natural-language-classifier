@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-17"
+lastupdated: "2018-05-29"
 
 ---
 
@@ -33,6 +33,13 @@ Organize products in your e-commerce store. This Python app categorizes products
 - [View the demo ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://erichensley-nlc-demo.mybluemix.net/){: new_window}
 - [Video walkthrough ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://youtu.be/JPMZxgpc_Uo){: new_window}
 - [Fork the code ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/erichensleyibm/NLC_product_classifier-demo){: new_window}
+
+## Phishing prediction
+
+Create and deploy a web app to predict phishing attempts in email. Try one of the samples or enter your own text, and see how it's classified.
+
+- [View the demo ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://nlc-email-spam.mybluemix.net/){: new_window}
+- [Fork the code ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/zmohammad01/nlc-email-spam){: new_window}
 
 ## Text message spam prediction
 
