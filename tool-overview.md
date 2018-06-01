@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-27"
+lastupdated: "2018-06-01"
 
 ---
 
@@ -12,6 +12,12 @@ lastupdated: "2018-04-27"
 
 # Managing classifiers with the toolkit
 {: #managing-toolkit}
+
+---
+
+**The beta {{site.data.keyword.nlclassifiershort}} toolkit is migrating to {{site.data.keyword.DSX}}.** *To preserve the data used to train your classifiers, log into the toolkit and download the training data from the Classifiers page before **July 31, 2018***.
+
+---
 
 You can manage your training data and classifiers by using the {{site.data.keyword.nlclassifierfull}} Toolkit web application. The toolkit gives you a unified view of all the classifiers that are running in the same {{site.data.keyword.Bluemix_notm}} service instance.
 {: shortdesc}
