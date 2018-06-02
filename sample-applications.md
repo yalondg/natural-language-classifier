@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-05-29"
+lastupdated: "2018-05-31"
 
 ---
 
@@ -29,7 +29,7 @@ These apps are created by the community of developers and are not supported by I
 
 Organize products in your e-commerce store. This Python app categorizes products from a text description or from a link to a product. The training data comes from two public e-commerce data sets found on Kaggle.com (Flipkart and JCPenny).
 
-- [Read More ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://medium.com/ibm-watson/e-commerce-product-categorization-with-watson-cf2130d7c94a?source=rss----22a2beb5a88a---4){: new_window}
+- [Read more ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://medium.com/ibm-watson/e-commerce-product-categorization-with-watson-cf2130d7c94a?source=rss----22a2beb5a88a---4){: new_window}
 - [View the demo ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://erichensley-nlc-demo.mybluemix.net/){: new_window}
 - [Video walkthrough ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://youtu.be/JPMZxgpc_Uo){: new_window}
 - [Fork the code ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/erichensleyibm/NLC_product_classifier-demo){: new_window}
@@ -38,6 +38,7 @@ Organize products in your e-commerce store. This Python app categorizes products
 
 Create and deploy a web app to predict phishing attempts in email. Try one of the samples or enter your own text, and see how it's classified.
 
+- [Read more ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://medium.com/ibm-watson/identify-spam-with-watson-natural-language-classifier-42f273d310f4){: new_window}
 - [View the demo ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://nlc-email-spam.mybluemix.net/){: new_window}
 - [Fork the code ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/zmohammad01/nlc-email-spam){: new_window}
 
@@ -45,14 +46,15 @@ Create and deploy a web app to predict phishing attempts in email. Try one of th
 
 Create a Python app to predict spam. The training data is a public set of 5,574 English SMS messages collected for mobile phone spam research.
 
+- Watch a [video walkthrough ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.youtube.com/watch?v=upK42t7Ojls){: new_window} or [read more ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://medium.com/ibm-watson/identify-spam-with-watson-natural-language-classifier-42f273d310f4){: new_window}
 - [View the demo ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://watsonnlcspam.mybluemix.net/){: new_window}
-- [Video walkthrough ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.youtube.com/watch?v=upK42t7Ojls){: new_window}
 - [Fork the code ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/cdimascio/watson-nlc-spam){: new_window}
 
 ## Health injury classification with ICD-10 codes
 
 Build a Python app based on the Flask microframework. The app uses the Watson Python SDK and the ICD-10 API.
 
+- [Read more ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/code/patterns/classify-icd-10-data-with-watson/){: new_window}
 - [Video walkthrough ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://youtu.be/N0eKEZxdwsQ){: new_window}
 - [Fork the code ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/stevemart/nlc-icd10-demo){: new_window}
 
