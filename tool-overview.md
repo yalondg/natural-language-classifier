@@ -64,7 +64,7 @@ You can allow others to use your toolkit by adding them in {{site.data.keyword.B
 You can use the beta toolkit to download the training data used to train your classifiers. You can then use that training data to create another classifier.
 
 1.  On the **Classifiers** page of the toolkit, find the classifier.
-1.  Click the **Download data used to train this classifier** icon ![images/download-trainin-data.png](images/download-trainin-data.png) to save the data as a backup.
+1.  Click the **Download data used to train this classifier** icon ![Download training data icon](images/download-training-data.png) to save the data as a backup.
 1.  Rename the .csv file with a name that identifies the classifier.
 
 ## Example uses
