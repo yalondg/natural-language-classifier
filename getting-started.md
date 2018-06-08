@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-04-27"
+lastupdated: "2018-06-08"
 
 ---
 
@@ -47,8 +47,7 @@ You can create and train a classifier in less than 15 minutes.
 The following video walks you through this tutorial.
 {: #video}
 
-<iframe class="embed-responsive-item" id="youtubeplayer" type="text/html" width="560" height="315" src="https://www.youtube.com/embed/SUj826ybCdU?rel=0" webkitallowfullscreen mozallowfullscreen allowfullscreen gesture="media" allow="encrypted-media"></iframe>
-
+<iframe class="embed-responsive-item" id="youtubeplayer" title="Video walkthrough of Getting started tutorial" type="text/html" width="560" height="315" src="https://www.youtube.com/embed/SUj826ybCdU?rel=0" webkitallowfullscreen mozallowfullscreen allowfullscreen gesture="media" allow="encrypted-media"></iframe>
 
 ## Step 1: Create and train a classifier
 {: #create-train}
