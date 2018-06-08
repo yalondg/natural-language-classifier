@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-06-01"
+lastupdated: "2018-06-08"
 
 ---
 
@@ -13,9 +13,10 @@ lastupdated: "2018-06-01"
 # Managing classifiers with the toolkit
 {: #managing-toolkit}
 
+
 ---
 
-**The beta {{site.data.keyword.nlclassifiershort}} toolkit is migrating to {{site.data.keyword.DSX}}.** *To preserve the data used to train your classifiers, log into the toolkit and download the training data from the Classifiers page before **July 31, 2018***.
+**The beta {{site.data.keyword.nlclassifiershort}} toolkit is migrating to {{site.data.keyword.DSX}}.** *To preserve the data used to train your classifiers, log into the toolkit and [download the training data](#download) from the Classifiers page before **July 31, 2018***.
 
 ---
 
@@ -37,7 +38,7 @@ To find the link to the toolkit, follow these steps to get to your {{site.data.k
 
 1.  Open your {{site.data.keyword.nlclassifiershort}} service tile by logging into your [{{site.data.keyword.Bluemix_notm}} Dashboard ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.{DomainName}/dashboard/services){: new_window}.
 
-    - In the **Services** area, click your {{site.data.keyword.nlclassifiershort}} service tile to open the instance dashboard. (If you don't have a service tile, [create an instance ![External link icon](../../icons/launch-glyph.svg)](https://console.{DomainName}/catalog/services/natural-language-classifier/){: new_window} of the {{site.data.keyword.nlclassifiershort}} service.)
+    In the **Services** area, click your {{site.data.keyword.nlclassifiershort}} service tile to open the instance dashboard. (If you don't have a service tile, [create an instance ![External link icon](../../icons/launch-glyph.svg)](https://console.{DomainName}/catalog/services/natural-language-classifier/){: new_window} of the {{site.data.keyword.nlclassifiershort}} service.)
 1.  In the service dashboard, click **Open tool**.
 
     Bookmark the URL for easy access to the toolkit later.
@@ -56,6 +57,15 @@ You can allow others to use your toolkit by adding them in {{site.data.keyword.B
 1.  Select the **Developer** space role. For details about roles, see [Cloud Foundry roles
 ](/docs/iam/cfaccess.html#cfroles).
 1.  In a separate email, send the URL of your toolkit (that you bookmarked earlier) to the users.
+
+## Downloading training data
+{: #download}
+
+You can use the beta toolkit to download the training data used to train your classifiers. You can then use that training data to create another classifier.
+
+1.  On the **Classifiers** page of the toolkit, find the classifier.
+1.  Click the **Download data used to train this classifier** icon ![images/download-trainin-data.png](images/download-trainin-data.png) to save the data as a backup.
+1.  Rename the .csv file with a name that identifies the classifier.
 
 ## Example uses
 {: #example-uses}

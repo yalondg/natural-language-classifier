@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-03-16"
+lastupdated: "2018-06-08"
 
 ---
 
@@ -12,6 +12,11 @@ lastupdated: "2018-03-16"
 {:pre: .pre}
 {:codeblock: .codeblock}
 {:screen: .screen}
+
+<!-- Link definitions -->
+
+[watson-studio-product-page]: https://www.ibm.com/cloud/watson-studio
+
 
 # Release notes
 
@@ -27,6 +32,18 @@ The following new features and changes to the service are available.
 {: #changelog}
 
 The following new features and changes to the service are available.
+
+
+### 8 June 2018
+{: #08june2018}
+
+**Download your training data for the new tool**
+
+The existing Natural Language Classifier beta toolkit is scheduled to shut down July 31, 2018. The planned replacement for the toolkit is **Watson Studio**, the new integrated environment. [Watson Studio ![External link icon](../../icons/launch-glyph.svg "External link icon")][watson-studio-product-page]{: new_window} already supports Visual Recognition and other IBM Cloud services and resources.
+
+We expect that all of your existing classifiers will be available in Watson Studio. However, if you want to make sure that you can re-create your existing classifiers, [download the training data](/docs/services/natural-language-classifier/tool-overview.html#download) from the beta toolkit before July 31, 2018.
+
+For those who use the [API ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.ibm.com/watson/developercloud/natural-language-classifier/api/v1){: new_window} directly, there is no change with the tool migration.
 
 ### 16 March 2018
 {: #16march2018}
