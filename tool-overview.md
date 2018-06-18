@@ -2,11 +2,11 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-06-08"
+lastupdated: "2018-06-18"
 
 ---
 
-{:new_wind{:new_window: target="_blank"}
+{:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 {:tip: .tip}
 
@@ -18,9 +18,11 @@ lastupdated: "2018-06-08"
 
 **The beta {{site.data.keyword.nlclassifiershort}} toolkit is migrating to {{site.data.keyword.DSX}}.** *To preserve the data used to train your classifiers, log into the toolkit and [download the training data](#download) from the Classifiers page before **July 31, 2018***.
 
+You can continue to use the beta toolkit with your Cloud Foundry services until the migration to  {{site.data.keyword.DSX}} is complete. This change to the toolkit does not change how you call the service directly with the API.
+
 ---
 
-You can manage your training data and classifiers by using the {{site.data.keyword.nlclassifierfull}} Toolkit web application. The toolkit gives you a unified view of all the classifiers that are running in the same {{site.data.keyword.Bluemix_notm}} service instance.
+You can manage your training data and classifiers by using the {{site.data.keyword.nlclassifierfull}} Toolkit web application. The toolkit gives you a unified view of all the classifiers that are running in the same {{site.data.keyword.cloud_notm}} service instance.
 {: shortdesc}
 
 This is a beta release of the toolkit. The beta version of this toolkit might not be supported after a new release or after the toolkit exits beta status. Do not use the toolkit for production use.
@@ -30,13 +32,13 @@ The web interface of the toolkit simplifies how you train and test a classifier.
 ## Getting access
 {: #getting-access}
 
-You can find a link to the toolkit on the {{site.data.keyword.Bluemix_notm}} service dashboard page for your instance of {{site.data.keyword.nlclassifiershort}}.
+You can find a link to the toolkit on the {{site.data.keyword.cloud_notm}} service dashboard page for your instance of {{site.data.keyword.nlclassifiershort}}.
 
 ### Accessing the toolkit yourself
 
-To find the link to the toolkit, follow these steps to get to your {{site.data.keyword.Bluemix_notm}} **service** dashboard:
+To find the link to the toolkit, follow these steps to get to your {{site.data.keyword.cloud_notm}} **service** dashboard:
 
-1.  Open your {{site.data.keyword.nlclassifiershort}} service tile by logging into your [{{site.data.keyword.Bluemix_notm}} Dashboard ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.{DomainName}/dashboard/services){: new_window}.
+1.  Open your {{site.data.keyword.nlclassifiershort}} service tile by logging into your [{{site.data.keyword.cloud_notm}} Dashboard ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.{DomainName}/dashboard/services){: new_window}.
 
     In the **Services** area, click your {{site.data.keyword.nlclassifiershort}} service tile to open the instance dashboard. (If you don't have a service tile, [create an instance ![External link icon](../../icons/launch-glyph.svg)](https://console.{DomainName}/catalog/services/natural-language-classifier/){: new_window} of the {{site.data.keyword.nlclassifiershort}} service.)
 1.  In the service dashboard, click **Open tool**.
@@ -46,7 +48,7 @@ To find the link to the toolkit, follow these steps to get to your {{site.data.k
 
 ### Giving access to your toolkit to others
 
-You can allow others to use your toolkit by adding them in {{site.data.keyword.Bluemix_notm}}.
+You can allow others to use your toolkit by adding them in {{site.data.keyword.cloud_notm}}.
 
 1.  From the menu bar, click **Manage** &gt; **Security** &gt; **Identity and Access**, and then click **Users**.
 1.  Click **Invite users**.
