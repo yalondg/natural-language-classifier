@@ -34,6 +34,16 @@ Organize products in your e-commerce store. This Python app categorizes products
 - [Video walkthrough ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://youtu.be/JPMZxgpc_Uo){: new_window}
 - [Fork the code ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/erichensleyibm/NLC_product_classifier-demo){: new_window}
 
+
+## Job description classifier
+
+Classify job descriptions by the job's title. This app categorizes job titles from job descriptions. The training data comes from a public data sets found on NYC Open Data.
+
+- [Read more ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://medium.com/ibm-watson/classify-job-descriptions-with-watson-natural-language-classifier-fca735ff2f3c){: new_window}
+- [View the demo ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://nlc-job-descriptions.mybluemix.net/){: new_window}
+- [Video walkthrough ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.youtube.com/watch?v=KyaC-8vfyPg){: new_window}
+- [Fork the code ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/yalondg/nlc-job-descriptions){: new_window}
+
 ## Phishing prediction
 
 Create and deploy a web app to predict phishing attempts in email. Try one of the samples or enter your own text, and see how it's classified.
